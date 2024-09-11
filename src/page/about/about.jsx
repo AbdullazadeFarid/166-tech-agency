@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import about from '../../assets/image/about.img.png'
 import "./about.css"
 import timer from '../../assets/image/timer.png'
-import HomeSwiper from '../../slider/slider'
+import Homeswiper from '../../slider/slider'
 
 const About = () => {
 
     const [activeId, setActiveId] = useState(null);
 
     const handleClick = (id) => {
-        setActiveId(id); // Устанавливаем активный ID
+        setActiveId(id);
     };
 
     const infoArray = [
@@ -218,7 +218,7 @@ Göstərdiyimiz xidmətin müştərilərimizə rahat və əlçatan olması məqs
 
         </div>
 
-        <HomeSwiper/>
+        <Homeswiper/>
     </div>
 
 

@@ -10,7 +10,7 @@ import "./slider.css"
 
 import React from 'react'
 
-const HomeSwiper = () => {
+const Homeswiper = () => {
   return (
 
     <>
@@ -131,4 +131,4 @@ const HomeSwiper = () => {
   )
 }
 
-export default HomeSwiper
+export default Homeswiper

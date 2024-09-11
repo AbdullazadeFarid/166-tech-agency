@@ -19,7 +19,7 @@ import product from '../../assets//image/Image.png'
 import user from '../../assets//image/user.png'
 import banner from "../../assets/image/Banner.png"
 import map from '../../assets//image/Map.png'
-import HomeSwiper from '../../slider/slider';
+import Homeswiper from '../../slider/slider';
 import { Link } from 'react-router-dom';
 
 
@@ -522,7 +522,7 @@ const Home = () => {
 
         </div>
 
-        <HomeSwiper/>
+        <Homeswiper/>
 
         <div className='home_map'>
   <h2>Fəaliyyət göstərdiyimiz ölkələr</h2>
