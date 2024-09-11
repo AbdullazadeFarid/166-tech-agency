@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import user from '../assets/image/user.png'
-import star from '../assets/image/star.png'
+import star from '../assets/icon/stars.png'
 
 import 'swiper/css';
 import "./slider.css"
