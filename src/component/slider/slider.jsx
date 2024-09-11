@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import user from '../assets/image/user.png'
-import ulduz from '../assets/icon/Star.svg'
+import user from '../../assets/image/user.png'
+import ulduz from '../../assets/icon/Star.svg'
 
 import 'swiper/css';
 import "./slider.css"

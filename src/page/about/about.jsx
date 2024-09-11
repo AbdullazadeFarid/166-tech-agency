@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import about from '../../assets/image/about.img.png'
 import "./about.css"
 import timer from '../../assets/image/timer.png'
-import Homeswiper from '../../slider/slider'
+import Homeswiper from '../../component/slider/slider'
 
 const About = () => {
 

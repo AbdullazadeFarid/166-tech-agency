@@ -19,7 +19,7 @@ import product from '../../assets//image/Image.png'
 import user from '../../assets//image/user.png'
 import banner from "../../assets/image/Banner.png"
 import map from '../../assets//image/Map.png'
-import Homeswiper from '../../slider/slider';
+import Homeswiper from '../../component/slider/slider';
 import { Link } from 'react-router-dom';
 
 
