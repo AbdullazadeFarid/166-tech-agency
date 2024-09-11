@@ -1,0 +1,13 @@
+.team_main_head {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  margin-top: 48px;
+  align-items: center;
+}
+.team_main_head_line {
+  width: 52px;
+  height: 1px;
+  background-color: rgb(255, 204, 77);
+  position: relative;
+}/*# sourceMappingURL=team.css.map */

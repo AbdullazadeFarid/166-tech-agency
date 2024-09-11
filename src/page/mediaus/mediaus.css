@@ -1,0 +1,15 @@
+
+.medius_head {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.medius_head_line {
+  width: 52px;
+  height: 1px;
+  background-color: rgb(255, 204, 77);
+  position: relative;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}/*# sourceMappingURL=mediaus.css.map */

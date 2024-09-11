@@ -1,0 +1,265 @@
+@import "../../responsive/mixins";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+.cont {
+  max-width: 1704px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.burger_menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  z-index: 2;
+
+  .br {
+    width: 25px;
+    height: 2px;
+    background-color: rgba(45, 45, 43, 1);
+    transition: all 0.3s ease;
+  }
+
+  &.open {
+    z-index: 77;
+
+    .top {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .beetwen {
+      opacity: 0;
+    }
+
+    .bottom {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+}
+
+@include tablet {
+  .burger_menu {
+    display: flex;
+  }
+}
+
+
+.head {
+
+    &.active{
+      // position: static;
+      margin-top: 30px;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      left: 0;
+      z-index: 6;
+    }
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+
+    &_left {
+      display: flex;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+      @include mobile{
+        flex-wrap: wrap;
+        border: none;
+      }
+
+
+      .active{
+        border: 1px solid rgba(236, 172, 0, 1);
+        border-radius: 8px;
+        color: rgba(236, 172, 0, 1);
+      }
+
+      &_item {
+        padding: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 1);
+        cursor: pointer;
+      }
+    }
+
+    &_right {
+      display: flex;
+      align-items: center;
+      gap: 58px;
+      @include mobile{
+      display: none;
+      }
+
+      &_payment {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        h3{
+            font-weight: 700;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 1);
+            font-family: 'Mulish', sans-serif;
+
+        }
+      }
+
+      &_language {
+        position: relative;
+        &_items {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          font-weight: 500;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 1);
+          .icon {
+            transition: transform 0.3s ease-in-out;
+          }
+
+          .rotate {
+            transform: rotate(180deg);
+          }
+        }
+        &_add {
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  &_nav {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    @include tablet{
+    flex-direction: column;
+    position: fixed;
+    top: -440px;
+    background-color: rgb(50, 50, 50);
+
+    }
+    &.active{
+z-index: 6;
+  margin-top: 83px;
+  top: 29px;
+       left: 0;
+      width: 100%;
+      height: 100vh;
+transition: all ease 0.4s;    }
+    &_logo {
+      flex: 1.2;
+      @include mobile{
+        flex: 0.8;
+
+      }
+      img {
+      }
+    }
+
+    &_navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex: 2;
+          @include tablet{
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+      &_form {
+        position: relative;
+        min-width: 146px;
+
+
+        .search {
+          position: absolute;
+          left: 16px;
+          top: 4px;
+        }
+        &_inp {
+          max-width: 200px;
+          width: 100%;
+          padding: 7px 40px;
+          border-radius: 8px;
+          border: 1px solid rgba(243, 243, 243, 1);
+        }
+      }
+
+      &_items {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        gap: 22px;
+        @include tablet{
+        flex-direction: column;
+    margin-top: 21px;
+        color: #fff;
+
+    }
+        &_item {
+          display: flex;
+          align-items: center;
+
+          gap: 3px;
+          h4 {
+            font-weight: 700;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 1);
+            @include tablet{
+
+    color: #fff;
+            }
+          }
+
+          &_btn {
+
+            // position: relative;
+
+            &_button {
+              border-radius: 8px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 6px;
+              width: 150px;
+              height: 36px;
+              border: none;
+              background-color: rgba(255, 204, 77, 1);
+              font-weight: 500;
+              color: rgba(255, 255, 255, 1);
+              &_icon {
+                top: 9px;
+                left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.line{
+  height: 1px;
+    width: 100%;
+    background-color: rgba(228, 228, 228, 1);
+    margin-top: 25px;
+}
