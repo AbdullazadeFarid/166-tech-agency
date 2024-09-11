@@ -49,7 +49,7 @@ const Homeswiper = () => {
               <img src={user} alt="" />
               <p>01</p>
             </div>
-              <img className='home_slider_comment_cont_stars' src={star} alt="" />
+              {/* <img className='home_slider_comment_cont_stars' src={star} alt="" /> */}
               <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
               <div className='home_slider_comment_cont_line'></div>
               <h2>Lisa Smith</h2>
@@ -62,21 +62,7 @@ const Homeswiper = () => {
               <img src={user} alt="" />
               <p>01</p>
             </div>
-              <img className='home_slider_comment_cont_stars' src={star} alt="" />
-              <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
-              <div className='home_slider_comment_cont_line'></div>
-              <h2>Lisa Smith</h2>
-          </div>
-      </SwiperSlide>
-
-
-      <SwiperSlide>
-        <div className="home_slider_comment_cont">
-            <div className='home_slider_comment_cont_head'>
-              <img src={user} alt="" />
-              <p>01</p>
-            </div>
-              <img className='home_slider_comment_cont_stars' src={star} alt="" />
+              {/* <img className='home_slider_comment_cont_stars' src={star} alt="" /> */}
               <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
               <div className='home_slider_comment_cont_line'></div>
               <h2>Lisa Smith</h2>
@@ -90,7 +76,7 @@ const Homeswiper = () => {
               <img src={user} alt="" />
               <p>01</p>
             </div>
-              <img className='home_slider_comment_cont_stars' src={star} alt="" />
+              {/* <img className='home_slider_comment_cont_stars' src={star} alt="" /> */}
               <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
               <div className='home_slider_comment_cont_line'></div>
               <h2>Lisa Smith</h2>
@@ -104,7 +90,21 @@ const Homeswiper = () => {
               <img src={user} alt="" />
               <p>01</p>
             </div>
-              <img className='home_slider_comment_cont_stars' src={star} alt="" />
+              {/* <img className='home_slider_comment_cont_stars' src={star} alt="" /> */}
+              <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
+              <div className='home_slider_comment_cont_line'></div>
+              <h2>Lisa Smith</h2>
+          </div>
+      </SwiperSlide>
+
+
+      <SwiperSlide>
+        <div className="home_slider_comment_cont">
+            <div className='home_slider_comment_cont_head'>
+              <img src={user} alt="" />
+              <p>01</p>
+            </div>
+              {/* <img className='home_slider_comment_cont_stars' src={star} alt="" /> */}
               <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
               <div className='home_slider_comment_cont_line'></div>
               <h2>Lisa Smith</h2>
@@ -118,7 +118,7 @@ const Homeswiper = () => {
               <img src={user} alt="" />
               <p>01</p>
             </div>
-              <img className='home_slider_comment_cont_stars' src={star} alt="" />
+              {/* <img className='home_slider_comment_cont_stars' src={star} alt="" /> */}
               <p className='home_slider_comment_cont_desc'>Lorem ipsum dolor sit amet consectetur. Est vestibulum ornare viverra vestibulum neque turpis. Enim at amet et vivamus rhoncus.</p>
               <div className='home_slider_comment_cont_line'></div>
               <h2>Lisa Smith</h2>
